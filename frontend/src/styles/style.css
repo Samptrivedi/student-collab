@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e293b;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: #ef4444;
+}
+
+/* MAIN LAYOUT */
+.main-layout {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 20%;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar p {
+  margin: 12px 0;
+  cursor: pointer;
+  color: #cbd5f5;
+}
+
+.sidebar p:hover {
+  color: white;
+}
+
+/* FEED */
+.feed {
+  width: 50%;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  width: 25%;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* POST BOX */
+.post-box {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-box input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #334155;
+  color: white;
+}
+
+/* BUTTON */
+button {
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* 🔥 BUTTON HOVER (STEP 3) */
+button:hover {
+  background: #2563eb;
+  transition: 0.2s;
+}
+
+/* POST CARD */
+.post-card {
+  background: #1e293b;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* 🔥 CARD HOVER EFFECT (STEP 3) */
+.post-card:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+
+/* ACTIONS */
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+}
+
+.post-actions span {
+  cursor: pointer;
+}
+
+.post-actions span:hover {
+  color: white;
+}
+
+/* LOGIN PAGE */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* LOGIN CARD */
+.login-container {
+  width: 350px;
+  padding: 30px;
+  background: #1e293b;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+/* INPUT */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #334155;
+  color: white;
+}
+
+/* REGISTER TEXT */
+.register-text span {
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+.register-text span:hover {
+  text-decoration: underline;
+}
